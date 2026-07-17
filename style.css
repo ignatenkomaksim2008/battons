@@ -1,0 +1,59 @@
+div{
+    background-color: black;
+    justify-content:space-evenly;
+    display:flex;
+    height: 215px;
+    align-items: center;
+}
+a{
+    font-size: 23px;
+}
+.button1{
+    background: linear-gradient(to right,rgb(238, 90, 201),rgb(128, 35, 108));
+    color: rgb(181, 186, 190);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 19px;
+    transition: all 1s;
+}
+.button1:hover{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to left, rgb(247, 243, 24),rgb(22, 27, 0));
+     transform: rotate(360deg); 
+
+}
+.button2{
+    color: rgb(111, 202, 20);
+    border: 3px solid rgb(79, 139, 18);
+    padding-top: 16px;
+    padding-bottom: 14px;
+    padding-left: 27px;
+    padding-right: 27px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s;
+}
+
+.button2:hover{
+    box-shadow: 0px 17px 7px -10px rgb(79, 139, 18);
+    transform: translateY(-10px);
+}
+.button3{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(8, 133, 133);
+    padding: 20px;
+    border-radius: 50%;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    transition: all 1s;
+}
+
+.button3:hover{
+    color: rgb(5, 5, 68);
+    background-color: rgb(160, 80, 23);
+    transform: scale(1.5);
+    
+}
